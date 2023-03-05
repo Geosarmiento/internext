@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import "../src/Styles/styles.scss";
 
 
 import Hogar from "./pages/Hogar";
