@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/internext/build/static/css/main.957fbab5.css",
-    "main.js": "/internext/build/static/js/main.4b0b1c9f.js",
-    "static/media/banner1.png": "/internext/build/static/media/banner1.4fdb3fc56e0e3f7da805.png",
-    "static/media/fondostar.png": "/internext/build/static/media/fondostar.de6caddc72a0fb1107e3.png",
-    "static/media/logo.svg": "/internext/build/static/media/logo.39bdf96419409ac696da3b6064ae951c.svg",
-    "index.html": "/internext/build/index.html",
-    "main.957fbab5.css.map": "/internext/build/static/css/main.957fbab5.css.map",
-    "main.4b0b1c9f.js.map": "/internext/build/static/js/main.4b0b1c9f.js.map"
+    "main.css": "/static/css/main.dc94f1ba.css",
+    "main.js": "/static/js/main.3d6d6b7b.js",
+    "static/media/banner1.png": "/static/media/banner1.4fdb3fc56e0e3f7da805.png",
+    "static/media/fotoinstalador.png": "/static/media/fotoinstalador.85c7fa28c44416c07144.png",
+    "static/media/fondostar.png": "/static/media/fondostar.de6caddc72a0fb1107e3.png",
+    "static/media/banner2.jpg": "/static/media/banner2.f341c25881d14f0c1361.jpg",
+    "static/media/logo.svg": "/static/media/logo.39bdf96419409ac696da3b6064ae951c.svg",
+    "static/media/iconreloj.png": "/static/media/iconreloj.b10ac615d62de5e5d334.png",
+    "static/media/empresaslogo.png": "/static/media/empresaslogo.ac35ea53fa7efba186ac.png",
+    "index.html": "/index.html",
+    "main.dc94f1ba.css.map": "/static/css/main.dc94f1ba.css.map",
+    "main.3d6d6b7b.js.map": "/static/js/main.3d6d6b7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.957fbab5.css",
-    "static/js/main.4b0b1c9f.js"
+    "static/css/main.dc94f1ba.css",
+    "static/js/main.3d6d6b7b.js"
   ]
 }
