@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/internext/static/css/main.97a722a6.css",
+    "main.js": "/internext/static/js/main.9ba3ac92.js",
+    "static/media/banner1.png": "/internext/static/media/banner1.4fdb3fc56e0e3f7da805.png",
+    "static/media/fondostar.png": "/internext/static/media/fondostar.de6caddc72a0fb1107e3.png",
+    "static/media/logo.svg": "/internext/static/media/logo.39bdf96419409ac696da3b6064ae951c.svg",
+    "index.html": "/internext/index.html",
+    "main.97a722a6.css.map": "/internext/static/css/main.97a722a6.css.map",
+    "main.9ba3ac92.js.map": "/internext/static/js/main.9ba3ac92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97a722a6.css",
+    "static/js/main.9ba3ac92.js"
+  ]
+}
