@@ -9,7 +9,7 @@ class Contacto extends Component {
     render() {
         return (
             <div>
-
+<div className="fondo">
                 <div className="container contacto">
 
                     <form>
@@ -45,6 +45,8 @@ class Contacto extends Component {
                   
 
                     </form>
+
+                </div>
 
                 </div>
 
