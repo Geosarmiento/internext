@@ -30,7 +30,7 @@ class Servicios extends Component {
 
                 <div className="fondo_icon soporte1">
                         <div className="container soporte">
-                            <img src={fotoinstalador}/> 
+                            <img src={fotoinstalador} alt="fotoinstalador"/> 
                             
                             <article>
                                  <h1>Contamos con personal altamente capacitado</h1>  
