@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button2 from "./Button2";
+import dedicado from "../assets/img/iconodedicado.png"
 
 
 class CardPlanes extends Component{
@@ -24,7 +25,7 @@ class CardPlanes extends Component{
 
                         <section className="benner_icono">
 
-                            <img src="../assets/iconodedicado.png" alt="icono dedicado"/>
+                            <img src={dedicado} alt="icono dedicado"/>
                             <br/>
                             <br></br>
                             <h2 className="text2">INTERNET DEDICADO</h2>

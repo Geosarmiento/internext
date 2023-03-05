@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import whatsapp from "../assets/img/whatsapp.png"
+import facebook from "../assets/img/facebook.png"
+import instagram from "../assets/img/instagram.png"
 
 
 
@@ -33,14 +36,14 @@ class Footer extends Component{
                     <div className="icon_redes">
 
                     <Link to = "https://es-la.facebook.com/" target="_blank">  
-                      <img src="../assets/facebook.png" alt="logo_facebook"/> </Link>
+                      <img src={facebook} alt="logo_facebook"/> </Link>
 
                       <Link to = "https://www.instagram.com/internext.atl/?hl=es" target="_blank">  
-                      <img src="../assets/instagram.png" alt="logo_instagram"/> </Link>
+                      <img src={instagram} alt="logo_instagram"/> </Link>
 
 
                         <Link to = "https://wa.me/message/4INN45KYOEVQE1?src=qr" target="_blank">
-                        <img src="../assets/whatsapp.png" alt="logo_whatsapp"/></Link>
+                        <img src={whatsapp} alt="logo_whatsapp"/></Link>
                     
                     </div>
                     </section>

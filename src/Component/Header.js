@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import logo from "../assets/img/logo.svg"
+import bandera from "../assets/img/bandera.png"
 
 
 
@@ -10,11 +12,11 @@ class Header extends Component {
         return (
             <div className="fondo_header">
                 <div className="container">
-                    <img src="../assets/logo.png" alt="logo" />
+                    <img src={logo} alt="logo" />
 
                     
                   <div className="registrer">
-                        <p className="tel mt-2"><img src="../assets/bandera.png" alt="bandera" />  +95 3043616333</p>
+                        <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 3043616333</p>
                        
                         <button>Entrar</button>
                 
