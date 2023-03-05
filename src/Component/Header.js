@@ -4,9 +4,6 @@ import bandera from "../assets/img/bandera.png"
 
 
 
-
-
-
 class Header extends Component {
     render() {
         return (
