@@ -7,9 +7,6 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px 30px ;
-    
-   
-    
 
 }
 .servicios{
@@ -61,6 +58,21 @@
         font-weight: 600;
     }
 
+}
+
+.soporte1{
+    padding: 0;
+}
+.soporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: auto;
+    img {
+        
+    }
 }
 
 
