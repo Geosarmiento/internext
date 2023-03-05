@@ -1,40 +1,93 @@
 
 .fondo{
+    width: 100%;
+    height:auto;
     background-image: url("../img/fondostar.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 50px 30px ;
+    
+   
     
 
 }
 .servicios{
-   
     display: flex;
     flex-wrap: wrap-reverse;
-    height: 450px;
+    height: auto;
     justify-content: space-evenly;
-
-    margin: 50px auto;
-   
+    align-items: center;
+    img {
+        margin: 30px 30px;
+        width: 85%;
+    }
 
     h1{
         font-weight: 800;
     }
-    img{
-        width: 85%;
-    }
-     
-    }
+   
     
-    @media screen and (max-width: 468px) {
+}
 
-        .servicios{
-            gap:40px
-        }
-        .img_servicios{
-            margin-top: 60x;
-            width: 75%;
-          
-        }
+.fondo_icon{
+    background: $blanco;
+    width: 100%;
+    height: auto;
+    padding: 50px 30px ;
+
+}
+.icon_servicios{
+    
+    padding: 50px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+    article{
+       margin: 20px;
+        max-width: 220px;
     }
+    img{
+        width: 25%;
+        margin: 20px;
+    }
+
+    h6{
+        margin: 20px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 468px) {
+
+    .servicios{
+        
+        img {
+            margin: 30px 30px;
+            width: 75%;
+        }
+    
+        .text_empresas{
+            text-align: center;
+            padding: 20px;
+        }
+     
+    
+        h1{
+            font-weight: 800;
+        }
+       
+        
+    }  
+        
+         
+}
   

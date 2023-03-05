@@ -4,7 +4,8 @@ import BannerDedicado from "../Component/BannerDedicado";
 import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
 
-import banner1 from "../assets/img/banner1.png"
+import banner1 from "../assets/img/banner1.png";
+import banner2 from "../assets/img/banner2.jpg";
 
 class Hogar extends Component {
     render() {
@@ -22,10 +23,10 @@ class Hogar extends Component {
                                 
                             </div>
                             <div class="carousel-item">
-                                <img src="" class="d-block w-100" alt="image2"/>
+                                <img src={banner2} class="d-block w-100" alt="image2"/>
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/banner3.png" class="d-block w-100" alt="image3"/>
+                                <img src={banner1} class="d-block w-100" alt="image3"/>
                             </div>
                         </div>
 
