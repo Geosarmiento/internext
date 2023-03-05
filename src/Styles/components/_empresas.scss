@@ -1,0 +1,40 @@
+
+.fondo{
+    background-image: url("../img/fondostar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.servicios{
+   
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 450px;
+    justify-content: space-evenly;
+
+    margin: 50px auto;
+   
+
+    h1{
+        font-weight: 800;
+    }
+    img{
+        width: 85%;
+    }
+     
+    }
+    
+    @media screen and (max-width: 468px) {
+
+        .servicios{
+            gap:40px
+        }
+        .img_servicios{
+            margin-top: 60x;
+            width: 75%;
+          
+        }
+    }
+  

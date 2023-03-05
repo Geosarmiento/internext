@@ -1,0 +1,82 @@
+
+
+.cardplanes_container{
+    width: 180px;
+    height: auto;
+    background: $blanco;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+    
+    h6{
+        
+        font-size: 0.9rem;
+    }
+
+    .plan{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        color: $negro;
+        padding: 8px 0px 0px 0px;
+        h6{
+            font-weight: 600;
+        }
+        .tipo{
+            color: $naranja;
+            font-weight: 600;
+
+        }
+    }
+    .plan_megas{
+        background-color: $naranja;
+        border-radius: 8px;
+        width: 90%;
+        h1{
+            text-align: center;
+            font-size:90px;
+            letter-spacing: -10px;
+           // text-shadow: 1px 1px 5px black;
+            font-weight: 600;
+            color: $blanco;
+            margin-top: -10px;
+            
+        }
+        h4{
+            text-align: center;
+            font-weight: 800;
+            margin-top: -20px;
+            color: $blanco;
+        }
+    }
+
+    .plan_descripcion{
+        padding: 30px  0 15px 0;
+        text-align: center;
+        p{
+            line-height: .8;
+        }
+
+    }
+
+    .plan_valor p{
+        font-stretch: ultra-condensed;
+        font-weight: 1000;
+    }
+
+    a{
+        text-decoration: none;
+    
+    }
+
+
+
+
+}

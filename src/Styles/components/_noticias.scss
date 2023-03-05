@@ -1,0 +1,27 @@
+.noticias_container{
+    
+
+    .noticias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 70px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        p{
+           padding-top:  16px;
+        }
+      
+
+        .input{
+            width: 350px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            padding: 0 20px;
+
+        }
+    }
+
+}

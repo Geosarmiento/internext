@@ -1,0 +1,44 @@
+.footer{
+    background: $negro;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+    .footer_container{
+        display: flex;
+        height: auto;
+        justify-content: space-evenly;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+
+        .footer_text{
+            max-width: 300px;
+            height: auto;
+            color: $gris_oscuro;
+            padding: 30px 20px;
+            h6{
+                color: $naranja;
+                margin-bottom: 20px;
+            }
+            p{
+                line-height: .5;
+            }
+            a{
+                text-decoration: none;
+                color: $gris_oscuro;
+            }
+            a:hover{
+                text-decoration: none;
+                color: $blanco;
+            }
+
+        }
+    }
+
+    .icon_redes{
+        display: flex;
+        gap:30px;
+        height: 32px;
+        opacity: .4;
+    }
+}

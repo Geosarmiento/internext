@@ -1,0 +1,36 @@
+
+.hogar{
+    margin-top: -16px;
+  
+}
+
+@media screen and (max-width: 468px) {
+    .hogar{
+        margin-top: 0;
+      
+    }
+
+}
+
+
+.hogar_text{
+    padding: 50px ;
+    margin: auto;
+    text-align: center;
+    max-width: 850px;
+    text-align: center;
+    h1{
+        font-weight: 800;
+    }
+    }
+
+.container_hogar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+    margin-bottom: 80px;
+
+}
