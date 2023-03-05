@@ -18,7 +18,7 @@ class Header extends Component {
                   <div className="registrer">
                         <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 3043616333</p>
                        
-                        <button>Paga Factura</button>
+                        <button>Pagar</button>
                 
                         </div>    
 
