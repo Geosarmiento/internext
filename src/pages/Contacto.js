@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BannerDedicado from "../Component/BannerDedicado";
+
 import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
 
@@ -9,17 +10,25 @@ class Contacto extends Component {
         return (
             <div>
 
-                <div className="container ">
+                <div className="container contacto">
 
                     <form>
+                        <h2>Dejanos tus datos y en breve nos comunicaremos</h2>
+
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com"/>
+                            placeholder="Pedro Perez"/>
                         </div>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                            <input type="numb" class="form-control" id="exampleFormControlInput1"
+                            placeholder="304 52555225"/>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo Eléctronico</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="name@example.com"/>
                         </div>
@@ -27,9 +36,13 @@ class Contacto extends Component {
 
                         
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">Escribe aqui tus comentarios </label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
+
+                        
+                        <button type="sumit">Enviar</button>
+                  
 
                     </form>
 
