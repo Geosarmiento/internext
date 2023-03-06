@@ -35,10 +35,10 @@ class Footer extends Component{
                     <h6>SIGUENOS EN:</h6>
                     <div className="icon_redes">
 
-                    <Link to = "https://es-la.facebook.com/" target="_blank">  
+                    <Link to = "https://web.facebook.com/internextatlantico/" target="_blank">  
                       <img src={facebook} alt="logo_facebook"/> </Link>
 
-                      <Link to = "https://www.instagram.com/internext.atl/?hl=es" target="_blank">  
+                      <Link to = "https://www.instagram.com/internext.atl/" target="_blank">  
                       <img src={instagram} alt="logo_instagram"/> </Link>
 
 

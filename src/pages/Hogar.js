@@ -14,14 +14,14 @@ class Hogar extends Component {
 
                 <div className="hogar_slider">
 
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="carouselExampleFade  " class="carousel slide carousel-fade" data-bs-ride="carousel">
                         
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                               
-                                <img src={banner1} class="d-block w-100" alt="image1"/>
-                                
+                           
+                            <div class="carousel-item active ">
+                                 <img src={banner1} class="d-block w-100 " alt="image1"/>
                             </div>
+
                             <div class="carousel-item">
                                 <img src={banner2} class="d-block w-100" alt="image2"/>
                             </div>

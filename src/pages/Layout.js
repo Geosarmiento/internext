@@ -3,12 +3,15 @@ import { Outlet, NavLink } from "react-router-dom"
 
 
 
+
+
 const Layout =() =>{
+    
 
 return <div>
      
     <nav >
-        <ul id="nav" className="nav_item " >
+        <ul id="nav" className="nav_item" >
             <li>
                 <NavLink  to="/Hogar">Hogar</NavLink>
             </li>

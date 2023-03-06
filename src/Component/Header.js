@@ -4,7 +4,18 @@ import bandera from "../assets/img/bandera.png"
 
 
 
+   const menu = document.getElementById("menu");
+
+
 class Header extends Component {
+
+    cambia = () => {
+
+        menu.classList.toggle("close");
+        console.log(menu);
+      }
+  
+    
     render() {
         return (
             <div className="fondo_header">
@@ -19,7 +30,7 @@ class Header extends Component {
                 
                         </div>    
 
-                    <div className="menu">
+                    <div onClick={this.cambia} className="menu">
                         <div id="hamburguesa"  className="hamburguesa" >
                             <span></span>
                             <span></span>
