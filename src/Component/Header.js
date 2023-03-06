@@ -4,15 +4,16 @@ import bandera from "../assets/img/bandera.png"
 
 
 
-   const menu = document.getElementById("menu");
-
-
 class Header extends Component {
 
     cambia = () => {
 
-        menu.classList.toggle("close");
-        console.log(menu);
+        const menu = document.getElementById("nav");
+        const cerrar = document.getElementById("hamburguesa");
+        
+        menu.classList.toggle("open");
+        cerrar.classList.toggle("close")
+    
       }
   
     
