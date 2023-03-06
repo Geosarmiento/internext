@@ -5,7 +5,8 @@ import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
 
 import banner1 from "../assets/img/banner1.png";
-import banner2 from "../assets/img/banner2.jpg";
+import banner2 from "../assets/img/banner2.png";
+import banner3 from "../assets/img/banner3.png";
 
 class Hogar extends Component {
     render() {
@@ -13,33 +14,28 @@ class Hogar extends Component {
             <div className="hogar">
 
                 <div className="hogar_slider">
-
-                    <div id="carouselExampleFade  " class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                           
-                            <div class="carousel-item active ">
-                                 <img src={banner1} class="d-block w-100 " alt="image1"/>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src={banner2} class="d-block w-100" alt="image2"/>
+                            <div class="carousel-item active">
+                            <img src={banner1} class="d-block w-100" alt="banner2"/>
                             </div>
                             <div class="carousel-item">
-                                <img src={banner1} class="d-block w-100" alt="image3"/>
+                            <img src={banner3} class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item">
+                            <img src={banner2} class="d-block w-100" alt="..."/>
                             </div>
                         </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
+                        </div>
+                   
 
                 </div>
 

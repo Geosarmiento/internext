@@ -10,9 +10,10 @@ class Header extends Component {
 
         const menu = document.getElementById("nav");
         const cerrar = document.getElementById("hamburguesa");
-        
+
         menu.classList.toggle("open");
-        cerrar.classList.toggle("close")
+        cerrar.classList.toggle("close")    
+        
     
       }
   
