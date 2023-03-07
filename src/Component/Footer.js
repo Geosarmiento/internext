@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
+
 import whatsapp from "../assets/img/whatsapp.png"
 import facebook from "../assets/img/facebook.png"
 import instagram from "../assets/img/instagram.png"
@@ -18,9 +20,9 @@ class Footer extends Component{
                     </section>
                     <section className="footer_text">
                     <h6>SERVICIOS</h6>
-                     <Link to ="/hogar" ><p>Hogar</p></Link>
-                     <Link to ="/empresas" > <p>Empresas</p></Link>
-                     <Link to ="/empresas" > <p>Soporte Técnico</p></Link>
+                     <Link to ="/hogar" onClick={ScrollToTop}><p>Hogar</p></Link>
+                     <Link to ="/empresas" onClick={ScrollToTop} > <p>Empresas</p></Link>
+                     <Link to ="/servicios"  onClick={ScrollToTop}> <p>Soporte Técnico</p></Link>
                         
                     </section>
                     <section className="footer_text">
