@@ -1,5 +1,6 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes,  } from "react-router-dom";
 import "../src/Styles/styles.scss";
+
 
 
 import Hogar from "./pages/Hogar";
@@ -11,7 +12,13 @@ import Header from "./Component/Header";
 import Layout from "./pages/Layout";
 
 
+
+
+
 function App(){
+
+
+  
   return(
   
 <div>
@@ -20,7 +27,9 @@ function App(){
       </div>   
 
       <Routes>
+     
         <Route path="/" element={<Layout/>} >
+        
           <Route index element={<Hogar/>} />
           <Route path="hogar" element={<Hogar/>} />
           <Route path="empresas" element={<Empresas/>} />

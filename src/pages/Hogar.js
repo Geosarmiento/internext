@@ -15,15 +15,16 @@ class Hogar extends Component {
 
                 <div className="hogar_slider">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner alto" >
                             <div class="carousel-item active">
-                            <img src={banner1} class="d-block w-100" alt="banner2"/>
+                            <img src={banner1} class="d-block w-100 " alt="banner2"/>
                             </div>
                             <div class="carousel-item">
-                            <img src={banner3} class="d-block w-100" alt="..."/>
+                            <img src={banner3} class="d-block w-100" alt="banner3"/>
+                            
                             </div>
                             <div class="carousel-item">
-                            <img src={banner2} class="d-block w-100" alt="..."/>
+                            <img src={banner2} class="d-block w-100" alt="banner2"/>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

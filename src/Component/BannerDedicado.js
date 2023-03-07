@@ -3,6 +3,8 @@ import Button2 from "./Button2";
 import dedicado from "../assets/img/iconodedicado.png"
 
 
+
+
 class CardPlanes extends Component{
     render(){
         return(
@@ -19,7 +21,10 @@ class CardPlanes extends Component{
                                 <h5>con la cantidad de Megas que requieras</h5>
                                 <br/>
 
-                               <Button2/>
+
+                            
+                                         <Button2/>
+                             
 
                         </section>
 
