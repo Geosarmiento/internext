@@ -6,7 +6,8 @@ import CardPlanes from "../Component/CardPlanes"
 import BannerDedicado from "../Component/BannerDedicado";
 import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
-import nave from "../Styles/img/nave.png"
+import nave from "../Styles/img/nave.png";
+import ultavelocidad from "../Styles/img/ultravelocidad.png";
 
 
 
@@ -36,6 +37,8 @@ class Hogar extends Component {
 
                             <div class="carousel-item">
                                 <div className="banners  dos">
+
+                                <img  src={ultavelocidad}  alt="banner3" className="img2 animate__animated  animate__bounceInUp"/>
                                         
                                 </div>
                             

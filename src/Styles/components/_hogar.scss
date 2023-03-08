@@ -29,11 +29,15 @@
 
         }
         .dos{
-           
-           
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-image: url("../img/banner2.png");
             background-position: center;
             background-size: cover;
+            img{
+              height: 100%;
+            }
            
         }
         .tres{
@@ -89,8 +93,14 @@
             }
             .dos{
                 background-image: url("../img/banner2.png");
-                background-position: center;
+                background-position: right;
                 background-size: cover;
+                img{
+                    margin-top: -150px;
+                    width: 600px;
+                    height: auto;
+                  }
+                 
         
             }
             .tres{
