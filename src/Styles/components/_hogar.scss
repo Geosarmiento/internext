@@ -1,13 +1,106 @@
 
 .hogar{
     margin-top: -16px;
+
+    .banners{
+        width: 100%;
+        height: 575px; 
+       
+    }
+    .uno{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("../img/banner1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+       h1{
+        font-size: 80px;
+        font-weight: 800;
+       }
+       h2{
+        font-weight: 600;
+        line-height: .3;
+
+       }
+
+        }
+        .dos{
+           
+           
+            background-image: url("../img/banner2.png");
+            background-position: center;
+            background-size: cover;
+           
+        }
+        .tres{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            justify-content: space-evenly;
+            align-items: center;
+             background-image: url("../img/banner3.png");
+              background-position: center;
+             background-size: cover;
+        h1{
+            font-size: 80px;
+            font-weight: 800;
+            color: $naranja;
+           }
+           h2{
+            font-weight: 600;
+            line-height: .3;
+    
+           }
+
+    }
   
 }
 
+
 @media screen and (max-width: 468px) {
+    
     .hogar{
         margin-top: 0;
-      
+     
+        .banners{
+            height: 100vh;
+
+        }
+        
+        .uno{
+            text-align: center;
+            background-image: url("../img/banner1.png");
+            background-position: center;
+            background-size: cover;
+            align-content: center;
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                line-height: 1;
+            }
+            img{
+                width: 400px;
+            }
+            }
+            .dos{
+                background-image: url("../img/banner2.png");
+                background-position: center;
+                background-size: cover;
+        
+            }
+            .tres{
+            background-image: url("../img/banner3.png");
+            background-position: center;
+            background-size: cover;
+    
+    
+        }
+
     }
 
 }

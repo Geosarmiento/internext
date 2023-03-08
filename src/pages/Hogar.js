@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+
+import 'animate.css';
+
 import CardPlanes from "../Component/CardPlanes"
 import BannerDedicado from "../Component/BannerDedicado";
 import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
+import nave from "../Styles/img/nave.png"
 
-import banner1 from "../assets/img/banner1.png";
-import banner2 from "../assets/img/banner2.png";
-import banner3 from "../assets/img/banner3.png";
+
 
 class Hogar extends Component {
     render() {
@@ -16,16 +18,40 @@ class Hogar extends Component {
                 <div className="hogar_slider">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner alto" >
+                            
+                            
                             <div class="carousel-item active">
-                            <img src={banner1} class="d-block w-100 " alt="banner2"/>
+
+                            <div className="banners uno">
+                                <div>
+                                     <h2 className="animate__animated  animate__backInUp">ADQUIERE YA!</h2>
+                                     <h1 className="animate__animated animate__fadeInLeft">PLAN HOGAR</h1> 
+                                     <h2 className="animate__animated  animate__backInUp">INTERNET FIBRA OPTICA 100% ILIMITADO!</h2>
+                                     
+                                     
+                                </div>
+                                <img  src={nave}  alt="banner3" className="animate__animated  animate__bounceInUp"/>
                             </div>
+                            </div>
+
                             <div class="carousel-item">
-                            <img src={banner3} class="d-block w-100" alt="banner3"/>
+                                <div className="banners  dos">
+                                        
+                                </div>
                             
                             </div>
+
+
                             <div class="carousel-item">
-                            <img src={banner2} class="d-block w-100" alt="banner2"/>
+                                <div className="banners tres">
+                                <h1 className="animate__animated  animate__backInUp">INTERNET DEDICADO</h1> 
+                                        <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO VENEFICIO</h2>
+                                        
+                                </div>
+                           
                             </div>
+
+
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
