@@ -21,7 +21,6 @@ class Header extends Component {
     }
 
 
-
     cambia = () => {
 
         const menu = document.getElementById("nav");
@@ -44,21 +43,15 @@ class Header extends Component {
                     <div className="registrer">
                         <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 3043616333</p>
 
-
-
                         <button className="entrar" onClick={() => this.handleModal()}>Entrar</button>
-
-
                     </div>
 
 
                     <Modal show={this.state.showModal}>
-
                         <div className="contenedor_modal " >
 
                             <form className="form_singin">
                                 <h2>Inicie sesión</h2>
-                              
 
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">E-mail</label>
@@ -72,13 +65,14 @@ class Header extends Component {
                                         placeholder="" />
                                 </div>
 
-                                <Link to = "/*"> Olvido su contraseña?</Link>
+                                <Link to="/*"> Olvido su contraseña?</Link>
 
                                 <button className="enviar" type="sumit">INGRESAR</button>
 
-                                <Link to = "/*"> Don't have an acconut? Create</Link>
+                                <Link to="/*"> Don't have an acconut? Create</Link>
 
                             </form>
+
                             <button onClick={() => this.handleModal()} className="boton_cerrar">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
