@@ -1,0 +1,103 @@
+
+.contenedor_modal{
+    width: 80%;
+       
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin: 50px auto;
+         
+        .form_singin{
+            display: flex;
+            flex-direction: column;
+                max-width: 800px;
+                min-width: 320px;
+                padding: 50px 30px ;
+            
+                }
+                h2{
+                    font-size: 2rem;
+                    text-align: center;
+                    margin-bottom: 50px ;
+                    font-weight: 600;
+                }
+                h3{
+                    margin-bottom: 30px;
+                }
+                .enviar{
+                    text-align: center;
+                    width: 250px;
+                    height: 35px;
+                    background: $naranja;
+                    color: $blanco;
+                    margin: 35px 0px;
+                    border: none;
+                    border-radius: 20px ;
+                        &:hover{
+                            background: $negro;
+                        }  
+                    }
+                    a{
+                        text-align: center;
+                        text-decoration: none;
+                        color: $gris-oscuro;
+                        
+                    }
+          
+        .boton_cerrar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                background: $naranja;
+                color: $blanco;
+                border: none;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                top:0;
+                right:  0;
+                margin: 20px;
+                &:hover{
+                    background: $negro;
+                }
+
+        }
+        
+        .enviar{
+            
+            margin: 35px auto;
+        }
+
+    
+        
+       
+    }
+
+    .registrer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        
+    
+        button{
+            width: 80px;
+            height: 30px;
+            margin-left: 30px;
+            border: 1px solid $gris-oscuro;
+            border-radius: 50   px;
+            
+            border: none;
+            color: $gris-oscuro;
+        }
+        p{
+            padding-top: 10px;
+        }
+    }
+   
+ 
+
+    
