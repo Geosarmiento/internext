@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import ScrollToTop from "react-scroll-to-top";
+
 
 
 
@@ -14,7 +14,7 @@ class Button extends Component{
             
           
            <div className="buttomPrimario">
-                <Link  to="/contacto" onClick={ScrollToTop}>Contratar</Link>
+                <Link  to="/contacto" onClick="scroll(0, 100)">Contratar</Link>
            </div>
            
         );

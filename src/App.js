@@ -1,7 +1,7 @@
-import { Route, Routes,  } from "react-router-dom";
+import { Route, Routes, } from "react-router-dom";
+
+
 import "../src/Styles/styles.scss";
-
-
 
 import Hogar from "./pages/Hogar";
 import Empresas from "./pages/Empresas";
@@ -15,13 +15,19 @@ import Layout from "./pages/Layout";
 
 
 
+
+
 function App(){
 
-
+ 
   
   return(
   
 <div>
+
+
+
+
       <div>
         <Header/>
       </div>   
@@ -37,6 +43,7 @@ function App(){
           <Route path="*" element={<Error404/>} />
         </Route>
       </Routes>
+
 
 </div>
 

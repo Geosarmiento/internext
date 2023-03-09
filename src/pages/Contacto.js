@@ -5,6 +5,7 @@ import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
 
 
+
 class Contacto extends Component {
     render() {
         return (
@@ -49,7 +50,6 @@ class Contacto extends Component {
                 </div>
 
                 </div>
-
 
 
                 <div>
