@@ -55,7 +55,7 @@ class Hogar extends Component {
                                     </div>
 
                                     <div className="img_tres">
-                                        <img src={dedicado} alt="imgen dedicado"></img>
+                                        <img src={dedicado} alt="imgen dedicado" className="animate__animated  animate__bounceInUp"/>
 
                                     </div>
 
