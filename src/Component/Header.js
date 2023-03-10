@@ -37,7 +37,8 @@ class Header extends Component {
         return (
             <div className="fondo_header">
                 <div className="container">
-                    <img src={logo} alt="logo" />
+                    
+                  <Link to = "/">  <img src={logo} alt="logo" /> </Link>
 
 
                     <div className="registrer">
