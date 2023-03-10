@@ -7,6 +7,7 @@ import BannerDedicado from "../Component/BannerDedicado";
 import Footer from "../Component/Footer";
 import Noticias from "../Component/Noticias";
 import nave from "../Styles/img/nave.png";
+import dedicado from "../Styles/img/dedicado.png";
 import ultavelocidad from "../Styles/img/ultravelocidad.png";
 
 
@@ -47,11 +48,19 @@ class Hogar extends Component {
 
                             <div class="carousel-item">
                                 <div className="banners tres">
-                                <h1 className="animate__animated  animate__backInUp">INTERNET DEDICADO</h1> 
-                                        <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO VENEFICIO</h2>
-                                        
+
+                                    <div className="text_tres">
+                                        <h1 className="animate__animated  animate__backInUp">INTERNET <br/>DEDICADO</h1> 
+                                        <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO VENEFICIO</h2> 
+                                    </div>
+
+                                    <div className="img_tres">
+                                        <img src={dedicado} alt="imgen dedicado"></img>
+
+                                    </div>
+
+
                                 </div>
-                           
                             </div>
 
 
