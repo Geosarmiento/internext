@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
 
-
-
-
 class SingIn extends Component {
     constructor() {
         super()

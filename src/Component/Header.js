@@ -69,7 +69,9 @@ class Header extends Component {
 
                                 <button className="enviar" type="sumit">INGRESAR</button>
 
-                                <Link to="/*"> Don't have an acconut? Create</Link>
+                                <button className="enviar" type="sumit">REGISTRAR</button>
+
+                       
 
                             </form>
 
