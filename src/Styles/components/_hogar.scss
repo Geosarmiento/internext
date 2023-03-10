@@ -17,10 +17,29 @@
         background-size: cover;
         background-repeat: no-repeat;
         align-content: center;
-       h1{
+       
+        h1{
         font-size: 80px;
         font-weight: 800;
+
+        //<-- atento a esta linea truco degradado texto//
+        display: inline-block;
+        color: #000;
+        background: #fff;
+        mix-blend-mode: multiply;
+        position: relative;
        }
+       h1:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, red, rgb(255, 166, 0));
+        mix-blend-mode: screen; //<-- atento a esta linea truco degradado texto//
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
        h2{
         font-weight: 600;
         line-height: .3;
@@ -86,6 +105,7 @@
 
            }
           .img_tres{
+            margin-left: -200px;
             max-width: 600px;
            img{
             max-width: 100%;
@@ -137,9 +157,33 @@
         
             }
             .tres{
-            background-image: url("../img/banner3.png");
-            background-position: center;
-            background-size: cover;
+                display: flex;
+                flex-direction: column-reverse;
+               
+                background-image: url("../img/banner3.png");
+                background-position: center;
+                background-size: cover;
+                align-content: center;
+                text-align: center;
+
+            h1{
+                font-size: 55px;
+               padding: 30px;
+            }
+            h2{
+
+                padding: 0px 30px;
+            }
+
+           .text_tres{
+            margin-top: -150px;
+
+
+            }
+            .img_tres{
+            margin: 0;    
+            width: 350px;
+            }
     
     
         }

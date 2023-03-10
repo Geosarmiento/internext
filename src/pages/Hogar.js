@@ -50,7 +50,7 @@ class Hogar extends Component {
                                 <div className="banners tres">
 
                                     <div className="text_tres">
-                                        <h1 className="animate__animated  animate__backInUp">INTERNET <br/>DEDICADO</h1> 
+                                        <h1 className="animate__animated  animate__backInUp">INTERNET DEDICADO</h1> 
                                         <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO VENEFICIO</h2> 
                                     </div>
 
