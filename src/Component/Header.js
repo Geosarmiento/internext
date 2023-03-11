@@ -38,7 +38,7 @@ class Header extends Component {
             <div className="fondo_header">
                 <div className="container">
                     
-                  <Link to = "/">  <img src={logo} alt="logo" /> </Link>
+               <img src={logo} alt="logo" />
 
 
                     <div className="registrer">
