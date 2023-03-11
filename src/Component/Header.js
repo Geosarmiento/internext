@@ -39,6 +39,7 @@ class Header extends Component {
                 <div className="container">
                     
                <img src={logo} alt="logo" />
+               
 
 
                     <div className="registrer">
