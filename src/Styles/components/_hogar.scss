@@ -96,8 +96,6 @@
             top: 0;
             left: 0;
         }
-
-
            h2{
            
             font-weight: 800;
@@ -115,6 +113,64 @@
 
     }
   
+}
+
+.btn_pagar{
+    margin: auto;
+    position: relative;
+    margin-top: -53px;
+    z-index: 999999;
+    border-radius: 7px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+}
+
+  
+.botones_home{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: $negro;
+    border-radius: 15px 0px 15px 0;
+    
+    a{
+        text-decoration: none;
+        color: $negro;
+        padding-top: 10px;
+        font-weight: 600;
+       
+        
+    }
+    .btn_home{
+        text-align: center;
+        width: 250px;
+        height: 70px;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        flex-direction: column;
+        color: $blanco;
+        
+        border-left: 1px solid $blanco;
+        
+        &:hover{
+           background: $naranja;
+            color: $blanco;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        
+    }
 }
 
 
@@ -213,4 +269,63 @@
     gap: 30px;
     margin-bottom: 80px;
 
+}
+
+
+
+
+.btn_pagar{
+    margin: auto;
+    position: relative;
+    margin-top: -53px;
+    z-index: 999999;
+    border-radius: 7px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+}
+
+  
+.botones_home{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: $negro;
+    border-radius: 15px 0px 15px 0;
+    
+    a{
+        text-decoration: none;
+        color: $negro;
+        padding-top: 10px;
+        font-weight: 600;
+        
+    }
+    .btn_home{
+        text-align: center;
+        width: 250px;
+        height: 70px;
+        border-right:none;
+        border-bottom: 1px solid $blanco;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        flex-direction: column;
+        color: $blanco;
+        
+        &:hover{
+           background: $naranja;
+            color: $blanco;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        
+    }
 }

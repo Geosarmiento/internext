@@ -15,7 +15,7 @@ import { IoLogoUsd,IoReceiptOutline,IoReaderOutline } from "react-icons/io5";
 
 
 
-class Hogar extends Component {
+class Home extends Component {
     render() {
         return (
             <div className="hogar">
@@ -169,4 +169,4 @@ class Hogar extends Component {
     }
 }
 
-export default Hogar
+export default Home

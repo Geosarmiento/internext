@@ -66,7 +66,7 @@ class Empresas extends Component {
                     <article>
                         <img src={iconservicios} alt="icondedicado" />
                         <h6>SERVIVIOS 24/7</h6>
-                        <p>Soporte 24 horas al día 7 dias a la semana, por que negocio merece lo mejor </p>
+                        <p>Soporte 24 horas al día 7 dias a la semana, por que tu negocio merece lo mejor </p>
 
                     </article>
 

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import logo from "../assets/img/logo.svg";
+import bandera from "../assets/img/bandera.png";
+import {Link} from "react-router-dom";
 
-import logo from "../assets/img/logo.svg"
-import bandera from "../assets/img/bandera.png"
 
 
 
@@ -37,45 +37,22 @@ class Header extends Component {
         return (
             <div className="fondo_header">
                 <div className="container">
-                    
-               <img src={logo} alt="logo" />
-               
 
-
+                
+                 <img src={logo} alt="logo" />
+                 
                     <div className="registrer">
                         <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 3043616333</p>
 
-                        <button className="entrar" onClick={() => this.handleModal()}>Entrar</button>
+                        {/*onClick={() => this.handleModal()}*/}
+                       <button className="entrar" ><Link to="https://wisphub.net/">Pagar</Link></button>
                     </div>
 
 
                     <Modal show={this.state.showModal}>
                         <div className="contenedor_modal " >
 
-                            <form className="form_singin">
-                                <h2>Inicie sesión</h2>
 
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" />
-                                </div>
-
-                                <Link to="/*"> Olvido su contraseña?</Link>
-
-                                <button className="enviar" type="sumit">INGRESAR</button>
-
-                                <button className="enviar" type="sumit">REGISTRAR</button>
-
-                       
-
-                            </form>
 
                             <button onClick={() => this.handleModal()} className="boton_cerrar">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">

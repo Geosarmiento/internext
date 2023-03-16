@@ -1,14 +1,13 @@
 // Import the functions you need from the SDKs you need
-import { getAuth, createUserWithEmailAndPassword, singInWhithEmailAndPassword} from "firebase/auth";
-import { initializeApp} from "firebase/app";
-import { firebaseConfig } from "./firebase-config";
+import { initializeApp } from "firebase/app";
+import {getAuth} from "firebase/auth";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyAxqpcM959CCi1PvWqRojEFfozs5koueAM",
   authDomain: "internext-e2445.firebaseapp.com",
   projectId: "internext-e2445",
@@ -19,3 +18,5 @@ export const firebaseConfig = {
 };
 
 // Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);

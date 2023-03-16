@@ -1,0 +1,55 @@
+.container_login{
+    
+  h1{
+    text-align: center;
+    margin: 30px auto  ;
+  }
+  
+    
+    
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        input{
+            padding: 5px;
+            border-radius: 7px;
+            border: 1px solid $gris;
+            margin-top: 10px;
+        }
+        button{
+            
+            border-radius: 7px;
+            padding: 10px 50px;
+            background: $naranja;
+            border: none;
+            color: $blanco;
+            &:hover{
+                opacity: .9;
+            }
+        }
+    }
+
+    .btn_google{
+            width: 100%;
+            border-radius: 7px;
+            padding:10px 30px;
+            background: #c2c2c2;
+            border: none;
+            color: $gris-oscuro;
+            &:hover{
+                opacity: .9;
+            }
+
+            img{
+                width: 30px;
+            }
+    }
+    .olvido{
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

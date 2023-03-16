@@ -1,4 +1,22 @@
 
+
+.registrer{
+    .entrar {
+
+        &:hover{
+            background: $negro;
+        }
+        a{
+            text-decoration: none;
+            color: $negro;
+            &:hover{
+                background: $negro;
+                color: $blanco;
+            }
+        }
+    }
+}
+
 nav{
     
     .nav_item{

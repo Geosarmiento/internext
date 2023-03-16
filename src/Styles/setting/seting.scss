@@ -81,6 +81,24 @@ a{
 
 }
 
+.flotante{
+    
+    z-index: 999999;
+    position: absolute;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .3s linear;
+    }
+    img{
+        width: 110px;
+    }
+}
+
+
 
 
 

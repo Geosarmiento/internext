@@ -1,0 +1,39 @@
+
+.home{
+    background-image: url("../img/fondostar.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+
+   .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    h4{color: $naranja;}
+    }
+
+    button{
+       
+        border-radius: 7px;
+        padding: 10px 50px;
+        background: $naranja;
+        border: none;
+        color: $blanco;
+        &:hover{
+            background: $negro;
+            color: $blanco;
+            cursor: pointer;
+        }
+    }
+   
+ 
+
+
+}
