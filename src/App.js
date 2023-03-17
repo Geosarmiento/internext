@@ -13,7 +13,7 @@ import Pagar from "./pages/Pagar";
 import Layout from "./pages/Layout";
 
 
-import { ProtectedRoute } from "./Component/ProtectedRoute";
+
 
 import flotante from "./Styles/img/WhatsApp.png"
 
@@ -34,12 +34,9 @@ function App(){
       <Routes>
         <Route path="/" element={<Layout/>} >
 
-              <Route index element={
+              <Route index element={<Hogar/>
 
-                  < ProtectedRoute>
-                        
-                        
-                  </ProtectedRoute>
+               
                     }/>
 
                
