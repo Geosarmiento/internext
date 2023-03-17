@@ -1,0 +1,44 @@
+.container_pagar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-align: center;
+    }
+
+    .botones_link{
+        display: flex;
+        gap: 30px;
+        padding: 30px;
+    button{
+        width: 120px;
+        height: 40px;
+        background-color: $naranja;
+        border: none;
+        border-radius: 7px;
+
+    }
+}
+
+    .puntos_autorizados{
+       
+        background: $blanco;
+        height: auto;
+        padding: 30px;
+        p{
+            text-align: center;
+        }
+        .marcas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .logo_marcas{
+              
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
