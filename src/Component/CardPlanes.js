@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import Button from "./Button";
+import logotv from "../Styles/img/logotv.png";
+
 
 
 
@@ -22,7 +24,13 @@ class CardPlanes extends Component{
                         </section>
 
                         <section className="plan_descripcion">
-                            <h6> Tv Digital  </h6>
+
+                            <div className="tvdigital">
+                                
+                                <img src={logotv} alt="logotv"/>
+                                
+                            </div>
+                
                             <h6> Plan Ilimitado  </h6>
                             <h6> Fibra Optica  </h6>
                         </section>

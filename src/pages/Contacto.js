@@ -17,8 +17,11 @@ class Contacto extends Component {
                         <h2>Dejanos tus datos y en breve nos comunicaremos</h2>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                            <label for="exampleFormControlInput1"
+                            class="form-label">Nombre</label>
+
+                            <input type="text" 
+                             class="form-control" id="exampleFormControlInput1"
                             placeholder="Pedro Perez"/>
                         </div>
 

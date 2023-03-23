@@ -39,19 +39,19 @@ class Header extends Component {
                 <div className="container">
 
                 
-                 <img src={logo} alt="logo" />
+                <Link to="/hogar"> <img src={logo} alt="logo" /></Link>
                  
                     <div className="registrer">
-                        <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 3043616333</p>
+                        <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 300 912 2259</p>
 
                         {/*onClick={() => this.handleModal()}*/}
-                       <button className="entrar" ><Link to="https://wisphub.net/">Pagar</Link></button>
+                       <button className="entrar" ><Link to="https://wisphub.net/">Ingresar</Link></button>
                     </div>
 
 
                     <Modal show={this.state.showModal}>
                         <div className="contenedor_modal " >
-
+ 
 
 
                             <button onClick={() => this.handleModal()} className="boton_cerrar">

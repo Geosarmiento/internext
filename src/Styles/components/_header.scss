@@ -55,7 +55,12 @@ nav{
     height: 50px;
     display: flex;
     justify-content: space-between;
-    align-self: center;    
+    align-self: center; 
+    
+    a{
+        width: 120px;
+        height: auto;
+    }
 }
 
 

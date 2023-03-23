@@ -11,6 +11,7 @@ import nave from "../Styles/img/nave.png";
 import dedicado from "../Styles/img/dedicado.png";
 import ultavelocidad from "../Styles/img/ultravelocidad.png";
 import { IoLogoUsd,IoReceiptOutline,IoReaderOutline } from "react-icons/io5";
+import NuestrosClientes from "../Component/NuestrosClientes";
 
 
 
@@ -54,7 +55,7 @@ class Hogar extends Component {
 
                                     <div className="text_tres">
                                         <h1 className="animate__animated  animate__backInUp">INTERNET DEDICADO</h1> 
-                                        <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO VENEFICIO</h2> 
+                                        <h2 className="animate__animated  animate__backInUp">AL MEJOR COSTO BENEFICIO</h2> 
                                     </div>
 
                                     <div className="img_tres">
@@ -121,7 +122,7 @@ class Hogar extends Component {
                             tipo=""
                             megas="25"
                             descripcion=""
-                            valor="$45.000/mes" />
+                            valor="$75.000/mes" />
 
                      <CardPlanes 
                             plan="PLAN HOGAR"
@@ -135,14 +136,14 @@ class Hogar extends Component {
                             tipo="PLUS"
                             megas="100"
                             descripcion=""
-                            valor="$120.000/mes" />
+                            valor="$125.000/mes" />
 
                      <CardPlanes 
                             plan="PLAN HOGAR"
                             tipo="ULTRA"
                             megas="200"
                             descripcion=""
-                            valor="$165.000/mes" />
+                            valor="$185.000/mes" />
                             
 
                             
@@ -155,6 +156,10 @@ class Hogar extends Component {
                 <div>
                     <BannerDedicado />
                 </div>
+                    <div>
+                        <NuestrosClientes/>
+                    </div>
+
                 <div>
                     <Noticias />
                 </div>

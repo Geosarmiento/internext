@@ -14,7 +14,7 @@ class Button extends Component{
             
           
            <div className="buttomPrimario">
-                <Link  to="/contacto" onClick="scroll(0, 100)">Contratar</Link>
+                <Link  to="https://clientes.internext.com.co/solicitar-instalacion/internext/" onClick="scroll(0, 100)">Contratar</Link>
            </div>
            
         );
