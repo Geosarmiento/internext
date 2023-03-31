@@ -144,6 +144,13 @@ class Hogar extends Component {
                             megas="200"
                             descripcion=""
                             valor="$185.000/mes" />
+
+                    <CardPlanes 
+                            plan="PLAN HOGAR"
+                            tipo="FULL"
+                            megas="400"
+                            descripcion=""
+                            valor="$280.000/mes" />
                             
 
                             
