@@ -30,13 +30,34 @@ function Pagar() {
                     
                   </div>
 
+                  <h5>PUNTOS DE RECAUDO</h5>
+
                   <div className='oficinas'>
-                        <h5>PUNTOS DE RECAUDO</h5>
-                        <p>LA PLAYA: Calle 14 N° 16 - 131</p> 
-                        <p>CAMPO DE LA CRUZ: Calle 9 # 2 - 92 </p>
-                        <p>SUAN: Calle 4 # 10 - 52 LOCAL 2  Centro</p>
-                        <p>PUERTO GIRALDO: Carrera 10 # 8D 22 El reten</p>
-                        <p>PONEDERA: Cra 15 #18-14  La Pachita</p>
+                      
+                        <div className='puntos'>
+                        <p>LA PLAYA</p> 
+                        Calle 14 N° 16 - 131
+                        </div>
+
+                        <div className='puntos'>
+                        <p>CAMPO DE LA CRUZ</p>
+                        Calle 9 # 2 - 92 
+                        </div>
+
+                        <div className='puntos'>
+                        <p>SUAN</p>
+                        Calle 4 # 10 - 52 LOCAL 2  Centro
+                        </div>
+
+                        <div className='puntos'>
+                        <p>PUERTO GIRALDO</p>
+                        Carrera 10 # 8D 22 El reten
+                        </div>
+
+                        <div className='puntos'>
+                        <p>PONEDERA</p>
+                        Cra 15 #18-14  La Pachita
+                        </div>
                   </div>
                  
                 </div>

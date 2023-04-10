@@ -42,10 +42,31 @@
             }
         }
 
+        h5{
+            text-align: center;
+            margin: 30px ;
+        }
+
     
     }
 
+.oficinas{
+    display: flex;
+    flex-wrap: wrap;
+    
+    p{
+        text-align: start;
+        border-left: 1px solid $negro;
+        padding-left: 20px;
+    }
 
+    .puntos{
+        padding: 20px 30px;
+       
+    }
+
+
+}
    
 }
 
