@@ -2,6 +2,7 @@ import React from 'react'
 import logo_baloto from"../Styles/img/logo_baloto.png";
 import logo_efecty from"../Styles/img/logo_efecty.png";
 import logo_supergiros from"../Styles/img/logo_supergiros.png";
+import logo_wompi from "../Styles/img/logo_wompi.png"
 
 function Pagar() {
   return (
@@ -14,8 +15,11 @@ function Pagar() {
         <p>Realiza el pago de tu factura, con el medio de pago que mas te guste</p>
 
         <div className='botones_link'>
-                <button><a href='https://checkout.wompi.co/l/test_sPcAnd'>Boton Epago</a></button>
-                <button><a href='https://checkout.wompi.co/l/test_sPcAnd'>Boton WAMPI</a></button>
+                   <div className="logo_pagar">
+                         <img src={logo_wompi} alt="logowompi"/>
+                 
+                <button><a href='https://checkout.wompi.co/l/VPOS_0P79kC'>Pagar Aqui</a></button>
+                </div>
         </div>
                 <div className='puntos_autorizados'>
 
