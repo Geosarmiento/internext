@@ -3,6 +3,8 @@
 
 <?php 
 
+include("envar.php");
+
 $name = $_POST['name'];
 $phone = $_POST['telefono'];
 $mail = $_POST['email'];
