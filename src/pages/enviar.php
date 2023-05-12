@@ -3,17 +3,16 @@
 
 <?php 
 
-include("envar.php");
 
 $name = $_POST['name'];
-$phone = $_POST['telefono'];
+$phone = $_POST['phone'];
 $mail = $_POST['email'];
-$message  =$_POST['comentario'];
+$message  =$_POST['message'];
 
-$header = 'From:' . $mail . " \r\n";
-$header = "X-mailer: PHP/" . phpversion() .  " \r\n";
-$header = "Mime-Version: 1.0 \r\n";
-$header = "Content-Type: text/plain";
+$headers = 'From:' . $mail . " \r\n";
+$headers = "X-mailer: PHP/" . phpversion() .  " \r\n";
+$headers = "MiME-Version: 1.0 \r\n";
+$headers = "Content-type: text/html; charset=utf-8 \r\n";
 
 $message = "Este mensaje fue enviado por: ". $name . " \r\n";
 $message = "Su e-mail es: ". $email . " \r\n";
@@ -26,7 +25,7 @@ $asunto = 'Asunto del Mensaje';
 
 mail($para, $asunto, utf8_docode($message), $header);
 
-header("Location:index.html");
+header("Location: index.html");
 
 ?>
 

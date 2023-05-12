@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b10c589.css",
-    "main.js": "/static/js/main.4ca4d1dd.js",
+    "main.js": "/static/js/main.22d68c4f.js",
     "static/media/banner3.png": "/static/media/banner3.b28732f5a315580a7ce7.png",
     "static/media/banner1.png": "/static/media/banner1.a5a8fddb194569dd20bb.png",
     "static/media/fotoinstalador.png": "/static/media/fotoinstalador.85c7fa28c44416c07144.png",
@@ -25,10 +25,10 @@
     "static/media/empresaslogo.png": "/static/media/empresaslogo.ac35ea53fa7efba186ac.png",
     "index.html": "/index.html",
     "main.5b10c589.css.map": "/static/css/main.5b10c589.css.map",
-    "main.4ca4d1dd.js.map": "/static/js/main.4ca4d1dd.js.map"
+    "main.22d68c4f.js.map": "/static/js/main.22d68c4f.js.map"
   },
   "entrypoints": [
     "static/css/main.5b10c589.css",
-    "static/js/main.4ca4d1dd.js"
+    "static/js/main.22d68c4f.js"
   ]
 }

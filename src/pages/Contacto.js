@@ -13,22 +13,25 @@ class Contacto extends Component {
 <div className="fondo">
                 <div className="container contacto">
 
-                    <form action="enviar.php" method="post">
+                    <form action="funcion-mail.php" method="post">
                         <h2>Dejanos tus datos y en breve nos comunicaremos</h2>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            
+                            <label for="exampleFormControlInput1" 
+                            class="form-label">Nombre</label>
 
                             <input 
                                 type="text" 
                                 class="form-control" 
-                                name="nombre"
+                                name="name"
                                 id="exampleFormControlInput1"
                                 placeholder="Pedro Perez"/>
                         </div>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                            <label for="exampleFormControlInput1" 
+                            class="form-label">Teléfono</label>
 
                             <input 
                                 type="numb" 
@@ -39,11 +42,13 @@ class Contacto extends Component {
                         </div>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Correo Eléctronico</label>
+                            <label for="exampleFormControlInput1" 
+                            class="form-label">Correo Eléctronico</label>
 
                             <input 
                                 type="email" 
-                                class="form-control" id="exampleFormControlInput1"
+                                class="form-control" 
+                                id="exampleFormControlInput1"
                                 name="email"
                                 placeholder="name@example.com"/>
                         </div>
@@ -51,7 +56,8 @@ class Contacto extends Component {
 
                         
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Escribe aqui tus comentarios </label>
+                            <label for="exampleFormControlTextarea1" 
+                            class="form-label">Escribe aqui tus comentarios </label>
 
                             <textarea 
                             class="form-control" 
