@@ -46,7 +46,7 @@ class Header extends Component {
                 <Link to="/hogar"> <img src={logo} alt="logo" /></Link>
                  
                     <div className="registrer">
-                        <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 300 912 2259</p>
+                        <p className="tel mt-2"><img src={bandera} alt="bandera" />  +95 314 829 6147</p>
 
                         {/*onClick={() => this.handleModal()}*/}
                        <button className="entrar" ><Link to="https://wisphub.net/">Ingresar</Link></button>
